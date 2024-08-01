@@ -1,0 +1,177 @@
+.ModelDropdowncar-one-drop-four {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    // height: 580px;
+    background-color: #FFF;
+    display: none;
+
+    &.open {
+        // height: 580px;
+        display: block;
+    }
+
+    .ModelDropdowncar-one-drop1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        .ModelDropdowncar-one-drop1-bg {
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+        }
+
+        .Dropdownbox1-inner-main {
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 60px 0 0 0;
+
+            .Dropdownbox1-inner-container {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 0 20px;
+
+                .Dropdown-content-box1 {
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    align-items: start;
+                    gap: 0;
+
+                    h1 {
+                        font-size: 56px;
+                        font-weight: 600;
+                        line-height: 68px;
+                        max-width: 520px;
+                        font-family: "Roboto Slab", serif;
+                        color: #FFF;
+                        margin: 0 0 10px 0;
+                        padding: 0 !important;
+                    }
+
+                    p {
+                        color: #FFF;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: normal;
+                        font-family: "Roboto Slab", serif;
+                        margin: 0 0 5px 0;
+                        // font-family: "Poppins", sans-serif;
+                    }
+
+                    .price-text {
+                        margin: 0 0 25px 0;
+
+                        span {
+                            color: #FFF;
+                            font-size: 28px;
+                            font-weight: 600;
+                            line-height: 37px;
+                            font-family: "Roboto Slab", serif;
+                        }
+                    }
+
+                    .MSRP-div {
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+
+                        p {
+                            color: #FFF;
+                            font-family: "Roboto Slab", serif;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 1.4;
+
+                            span {
+                                font-weight: 700;
+                            }
+                        }
+                    }
+
+                    .expore-button-and-build-button-main {
+                        display: flex;
+                        justify-content: end;
+                        align-items: start;
+
+                        button:nth-child(2n + 1) {
+                            border-radius: 40px;
+                            padding-inline: 30px;
+                            width: 100%;
+                            background-color: #00779c;
+                            border: 2px solid #00779c;
+                            color: #fff;
+                            cursor: pointer;
+                            padding: .625em 3.125em;
+                            text-align: center;
+                            transition: all .25s ease-in-out;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 1.4;
+                            font-family: "Roboto Slab", serif;
+                            margin: 0 0 18px 0;
+
+                            &:hover {
+                                background-color: transparent;
+                                border: 2px solid #000;
+                                color: #000;
+                            }
+                        }
+
+                        button:nth-child(2n + 2) {
+                            border-radius: 40px;
+                            padding-inline: 30px;
+                            width: 100%;
+                            background-color: #fff;
+                            border: 2px solid #fff;
+                            color: #000;
+                            cursor: pointer;
+                            padding: .625em 3.125em;
+                            text-align: center;
+                            transition: all .25s ease-in-out;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 1.4;
+                            font-family: "Roboto Slab", serif;
+                            margin: 0 0 25px 0;
+
+                            &:hover {
+                                background-color: transparent;
+                                border: 2px solid #000;
+                                color: #000;
+                            }
+                        }
+
+                        .View-link {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0 0 25px 0;
+                            border-bottom: 1px solid #FFF;
+
+                            a {
+                                text-decoration-line: none;
+                                font-family: "Roboto Slab", serif;
+                                font-size: 16px;
+                                left: 1.4;
+                                font-weight: 500;
+                                color: #FFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

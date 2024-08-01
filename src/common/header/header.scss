@@ -1,0 +1,154 @@
+.Header {
+    position: relative;
+
+    header {
+        position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 62px;
+        background-color: #FFF;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+        .main-logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 15%;
+
+            img {
+                height: 100%;
+                width: 100%;
+                user-drag: none;
+                user-select: none;
+            }
+        }
+
+        .header-main-content {
+            display: flex;
+            flex-direction: row;
+            width: 85%;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+
+            .header-content-one {
+                min-width: 30%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                padding: 0;
+                gap: 27px;
+                align-items: center;
+
+                .header-content {
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                    gap: 5px;
+                    cursor: pointer;
+                    transition: all 0.4s ease-in-out;
+
+                    &:hover {
+                        span {
+                            color: #00779c;
+                        }
+
+                        svg path {
+                            fill: #00779c;
+                        }
+                    }
+
+                    span {
+                        font-family: "Poppins", sans-serif;
+                        padding-top: 3px;
+                        font-size: 15px;
+                        font-weight: 700;
+                    }
+
+                    svg {
+                        margin: 0 0 5px 0;
+
+                        path {
+                            fill: #000;
+                        }
+                    }
+                }
+            }
+
+            .header-content-two {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                padding: 0;
+                gap: 27px;
+                align-items: center;
+
+                .header-certified-content {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 6px;
+                    cursor: pointer;
+
+                    img {
+                        height: 14px;
+                        width: 14px;
+                    }
+
+                    span {
+                        font-family: "Poppins", sans-serif;
+                        padding-top: 3px;
+                        font-size: 15px;
+                        font-weight: 700;
+                    }
+                }
+
+                .header-certified-contentsc {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 6px;
+                    cursor: pointer;
+
+                    &:hover {
+                        span {
+                            color: #00779c;
+                        }
+
+                        svg path {
+                            fill: #00779c;
+                        }
+                    }
+
+                    span {
+                        font-family: "Poppins", sans-serif;
+                        padding-top: 3px;
+                        font-size: 15px;
+                        font-weight: 700;
+                    }
+
+                    svg path {
+                        fill: #000;
+                    }
+
+                    .dropdownicon {
+                        height: 14px;
+
+                        svg path {
+                            fill: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

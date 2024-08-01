@@ -1,0 +1,16 @@
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: height 0.4s ease-in-out;
+    height: auto;
+    overflow: hidden;
+
+    &.open {
+        height: 100%;
+    }
+}

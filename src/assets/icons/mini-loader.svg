@@ -1,0 +1,543 @@
+<svg id="ept49UjYh8b1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+      <![CDATA[
+      #ept49UjYh8b14 {
+        animation-name: ept49UjYh8b14__m, ept49UjYh8b14_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b14__m {
+        0% {
+          d: path('M201.563843,173.676972C203.456131,179.549925,204.869394,182.529236,208.017872,186.48119L207.540759,186.48119L201.08673,173.676972L201.563843,173.676972Z')
+        }
+  
+        58% {
+          d: path('M201.563843,173.676972C203.456131,179.549925,204.869394,182.529236,208.017872,186.48119L207.540759,186.48119L201.08673,173.676972L201.563843,173.676972Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        81.333333% {
+          d: path('M201.563843,173.676972C203.456131,179.549925,204.869394,182.529236,208.017872,186.48119L175.971382,186.48119L163.021985,173.676972L201.563843,173.676972Z')
+        }
+  
+        100% {
+          d: path('M201.563843,173.676972C203.456131,179.549925,204.869394,182.529236,208.017872,186.48119L175.971382,186.48119L163.021985,173.676972L201.563843,173.676972Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b14_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        58% {
+          opacity: 0
+        }
+  
+        71.333333% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b15 {
+        animation-name: ept49UjYh8b15__m, ept49UjYh8b15_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b15__m {
+        0% {
+          d: path('M202.860699,173.676972C202.860699,180.079081,203.775628,182.836945,204.940342,186.48119L204.940342,186.48119L202.860702,173.676972L202.860699,173.676972Z')
+        }
+  
+        51.333333% {
+          d: path('M202.860699,173.676972C202.860699,180.079081,203.775628,182.836945,204.940342,186.48119L204.940342,186.48119L202.860702,173.676972L202.860699,173.676972Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        74.666667% {
+          d: path('M202.860699,173.676972C202.860699,180.079081,203.775628,182.836945,204.940342,186.48119L156.153625,186.48119L143.280124,173.676972L202.860699,173.676972Z')
+        }
+  
+        100% {
+          d: path('M202.860699,173.676972C202.860699,180.079081,203.775628,182.836945,204.940342,186.48119L156.153625,186.48119L143.280124,173.676972L202.860699,173.676972Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b15_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        51.333333% {
+          opacity: 0
+        }
+  
+        64.666667% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b16 {
+        animation-name: ept49UjYh8b16__m, ept49UjYh8b16_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b16__m {
+        0% {
+          d: path('M206.954126,173.676972C205.329405,178.948411,205.329405,182.977719,204.874483,186.48119L204.874484,186.48119L206.954127,173.676972L206.954126,173.676972Z')
+        }
+  
+        44.666667% {
+          d: path('M206.954126,173.676972C205.329405,178.948411,205.329405,182.977719,204.874483,186.48119L204.874484,186.48119L206.954127,173.676972L206.954126,173.676972Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        68% {
+          d: path('M206.954126,173.676972C205.329405,178.948411,205.329405,182.977719,204.874483,186.48119L130.295525,186.48119L117.087874,173.676972L206.954126,173.676972Z')
+        }
+  
+        100% {
+          d: path('M206.954126,173.676972C205.329405,178.948411,205.329405,182.977719,204.874483,186.48119L130.295525,186.48119L117.087874,173.676972L206.954126,173.676972Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b16_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        44.666667% {
+          opacity: 0
+        }
+  
+        58% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b17 {
+        animation-name: ept49UjYh8b17__m, ept49UjYh8b17_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b17__m {
+        0% {
+          d: path('M210.89169,173.676972C208.418286,176.5748,205.390173,182.091057,203.966251,186.48119L203.966252,186.48119L210.891691,173.676972C210.891691,173.676972,210.89169,173.676972,210.89169,173.676972Z')
+        }
+  
+        33.333333% {
+          d: path('M210.89169,173.676972C208.418286,176.5748,205.390173,182.091057,203.966251,186.48119L203.966252,186.48119L210.891691,173.676972C210.891691,173.676972,210.89169,173.676972,210.89169,173.676972Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        60% {
+          d: path('M210.89169,173.676972C208.418286,176.5748,205.390173,182.091057,203.966251,186.48119L93.353395,186.48119L80.473373,173.676972C80.473373,173.676972,210.89169,173.676972,210.89169,173.676972Z')
+        }
+  
+        100% {
+          d: path('M210.89169,173.676972C208.418286,176.5748,205.390173,182.091057,203.966251,186.48119L93.353395,186.48119L80.473373,173.676972C80.473373,173.676972,210.89169,173.676972,210.89169,173.676972Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b17_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        40% {
+          opacity: 0
+        }
+  
+        53.333333% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b20 {
+        animation-name: ept49UjYh8b20__m, ept49UjYh8b20_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b20__m {
+        0% {
+          d: path('M201.563843,173.676972C203.456131,179.549925,204.869394,182.529236,208.017872,186.48119L207.540759,186.48119L201.08673,173.676972L201.563843,173.676972Z')
+        }
+  
+        58% {
+          d: path('M201.563843,173.676972C203.456131,179.549925,204.869394,182.529236,208.017872,186.48119L207.540759,186.48119L201.08673,173.676972L201.563843,173.676972Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        81.333333% {
+          d: path('M201.563843,173.676972C203.456131,179.549925,204.869394,182.529236,208.017872,186.48119L175.971382,186.48119L163.021985,173.676972L201.563843,173.676972Z')
+        }
+  
+        100% {
+          d: path('M201.563843,173.676972C203.456131,179.549925,204.869394,182.529236,208.017872,186.48119L175.971382,186.48119L163.021985,173.676972L201.563843,173.676972Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b20_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        58% {
+          opacity: 0
+        }
+  
+        71.333333% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b21 {
+        animation-name: ept49UjYh8b21__m, ept49UjYh8b21_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b21__m {
+        0% {
+          d: path('M202.860699,173.676972C202.860699,180.079081,203.775628,182.836945,204.940342,186.48119L204.940342,186.48119L202.860702,173.676972L202.860699,173.676972Z')
+        }
+  
+        51.333333% {
+          d: path('M202.860699,173.676972C202.860699,180.079081,203.775628,182.836945,204.940342,186.48119L204.940342,186.48119L202.860702,173.676972L202.860699,173.676972Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        74.666667% {
+          d: path('M202.860699,173.676972C202.860699,180.079081,203.775628,182.836945,204.940342,186.48119L156.153625,186.48119L143.280124,173.676972L202.860699,173.676972Z')
+        }
+  
+        100% {
+          d: path('M202.860699,173.676972C202.860699,180.079081,203.775628,182.836945,204.940342,186.48119L156.153625,186.48119L143.280124,173.676972L202.860699,173.676972Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b21_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        51.333333% {
+          opacity: 0
+        }
+  
+        64.666667% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b22 {
+        animation-name: ept49UjYh8b22__m, ept49UjYh8b22_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b22__m {
+        0% {
+          d: path('M206.954126,173.676972C205.329405,178.948411,205.329405,182.977719,204.874483,186.48119L204.874484,186.48119L206.954127,173.676972L206.954126,173.676972Z')
+        }
+  
+        44.666667% {
+          d: path('M206.954126,173.676972C205.329405,178.948411,205.329405,182.977719,204.874483,186.48119L204.874484,186.48119L206.954127,173.676972L206.954126,173.676972Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        68% {
+          d: path('M206.954126,173.676972C205.329405,178.948411,205.329405,182.977719,204.874483,186.48119L130.295525,186.48119L117.087874,173.676972L206.954126,173.676972Z')
+        }
+  
+        100% {
+          d: path('M206.954126,173.676972C205.329405,178.948411,205.329405,182.977719,204.874483,186.48119L130.295525,186.48119L117.087874,173.676972L206.954126,173.676972Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b22_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        44.666667% {
+          opacity: 0
+        }
+  
+        58% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b23 {
+        animation-name: ept49UjYh8b23__m, ept49UjYh8b23_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b23__m {
+        0% {
+          d: path('M210.89169,173.676972C208.418286,176.5748,205.390173,182.091057,203.966251,186.48119L203.966252,186.48119L210.891691,173.676972C210.891691,173.676972,210.89169,173.676972,210.89169,173.676972Z')
+        }
+  
+        33.333333% {
+          d: path('M210.89169,173.676972C208.418286,176.5748,205.390173,182.091057,203.966251,186.48119L203.966252,186.48119L210.891691,173.676972C210.891691,173.676972,210.89169,173.676972,210.89169,173.676972Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        60% {
+          d: path('M210.89169,173.676972C208.418286,176.5748,205.390173,182.091057,203.966251,186.48119L93.353395,186.48119L80.473373,173.676972C80.473373,173.676972,210.89169,173.676972,210.89169,173.676972Z')
+        }
+  
+        100% {
+          d: path('M210.89169,173.676972C208.418286,176.5748,205.390173,182.091057,203.966251,186.48119L93.353395,186.48119L80.473373,173.676972C80.473373,173.676972,210.89169,173.676972,210.89169,173.676972Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b23_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        40% {
+          opacity: 0
+        }
+  
+        53.333333% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b27 {
+        animation-name: ept49UjYh8b27__m, ept49UjYh8b27_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b27__m {
+        0% {
+          d: path('M225.623381,121.264256L168.317912,155.972792L194.730244,147.966817L267.291671,237.942705L194.730248,147.966812L225.623381,121.264256Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        38% {
+          d: path('M225.623381,121.264256L168.317912,155.972792L153.858671,329.321588L267.291671,237.942705L372.527384,153.16736L225.623381,121.264256Z')
+        }
+  
+        100% {
+          d: path('M225.623381,121.264256L168.317912,155.972792L153.858671,329.321588L267.291671,237.942705L372.527384,153.16736L225.623381,121.264256Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b27_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        7.333333% {
+          opacity: 0
+        }
+  
+        14.666667% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b27_tr {
+        animation: ept49UjYh8b27_tr__tr 3000ms linear infinite alternate backwards
+      }
+  
+      @keyframes ept49UjYh8b27_tr__tr {
+        0% {
+          transform: translate(289.80965px, 221.372929px) rotate(68.217665deg);
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        38% {
+          transform: translate(289.80965px, 221.372929px) rotate(301.653492deg)
+        }
+  
+        100% {
+          transform: translate(289.80965px, 221.372929px) rotate(301.653492deg)
+        }
+      }
+  
+      #ept49UjYh8b33 {
+        animation-name: ept49UjYh8b33__m, ept49UjYh8b33_c_o;
+        animation-duration: 3000ms;
+        animation-fill-mode: backwards;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes ept49UjYh8b33__m {
+        0% {
+          d: path('M225.623381,121.264256L168.317912,155.972792L194.730244,147.966817L267.291671,237.942705L194.730248,147.966812L225.623381,121.264256Z');
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        38% {
+          d: path('M225.623381,121.264256L168.317912,155.972792L153.858671,329.321588L267.291671,237.942705L372.527384,153.16736L225.623381,121.264256Z')
+        }
+  
+        100% {
+          d: path('M225.623381,121.264256L168.317912,155.972792L153.858671,329.321588L267.291671,237.942705L372.527384,153.16736L225.623381,121.264256Z')
+        }
+      }
+  
+      @keyframes ept49UjYh8b33_c_o {
+        0% {
+          opacity: 0
+        }
+  
+        5.666667% {
+          opacity: 0
+        }
+  
+        13% {
+          opacity: 1
+        }
+  
+        100% {
+          opacity: 1
+        }
+      }
+  
+      #ept49UjYh8b33_tr {
+        animation: ept49UjYh8b33_tr__tr 3000ms linear infinite alternate backwards
+      }
+  
+      @keyframes ept49UjYh8b33_tr__tr {
+        0% {
+          transform: translate(289.80965px, 221.372929px) rotate(68.217665deg);
+          animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86)
+        }
+  
+        38% {
+          transform: translate(289.80965px, 221.372929px) rotate(301.653492deg)
+        }
+  
+        100% {
+          transform: translate(289.80965px, 221.372929px) rotate(301.653492deg)
+        }
+      }
+      ]]>
+    </style>
+    <g display="none" transform="translate(-10.58773-76.782159)" mask="url(#ept49UjYh8b3)">
+      <mask id="ept49UjYh8b3" mask-type="luminance">
+        <g transform="translate(.000001 0)">
+          <ellipse rx="76.634088" ry="76.634088" transform="matrix(1.103259 0 0 1.103259 300 300)" fill="none" stroke="#f00" stroke-width="15" />
+          <line x1="69.956429" y1="0" x2="-69.956429" y2="0" transform="matrix(.385654 0 0 1 199.664971 342.217111)" fill="none" stroke="#f00" stroke-width="13" />
+          <line x1="69.956429" y1="0" x2="-69.956429" y2="0" transform="matrix(.530668 0 0 1 184.121316 313.788744)" fill="none" stroke="#f00" stroke-width="13" />
+          <line x1="69" y1="0" x2="-142.201382" y2="0" transform="matrix(.79558 0 0 1 168.738134 285.931855)" fill="none" stroke="#f00" stroke-width="13" />
+          <line x1="69.956429" y1="0" x2="-80.65746" y2="0.000001" transform="matrix(.907955 0 0 1 162.633664 257.006462)" fill="none" stroke="#f00" stroke-width="13" stroke-linecap="square" stroke-linejoin="bevel" />
+        </g>
+      </mask>
+      <g>
+        <path d="M89.40032,248.716397L202.053415,361.869055l112.560058,56.00485l90.865012-62.291109L531.775137,229.286143L308.327213,180.139029L89.40032,248.716397Z" transform="translate(.000003 0)" stroke-width="1.2" />
+      </g>
+    </g>
+    <g transform="translate(8.722615 75.610131)">
+      <g>
+        <path id="ept49UjYh8b14" d="M201.563843,173.676972c1.892288,5.872953,3.305551,8.852264,6.454029,12.804218h-.477113l-6.454029-12.804218h.477113Z" transform="translate(2.402409 85.362612)" opacity="0" stroke-width="1.2" />
+        <path id="ept49UjYh8b15" d="M202.860699,173.676972c0,6.402109.914929,9.159973,2.079643,12.804218v0l-2.07964-12.804218h-.000003Z" transform="translate(-6.057557 56.988908)" opacity="0" stroke-width="1.2" />
+        <path id="ept49UjYh8b16" d="M206.954126,173.676972c-1.624721,5.271439-1.624721,9.300747-2.079643,12.804218h.000001l2.079643-12.804218h-.000001Z" transform="translate(-8.071341 28.574528)" opacity="0" stroke-width="1.2" />
+        <path id="ept49UjYh8b17" d="M210.89169,173.676972c-2.473404,2.897828-5.501517,8.414085-6.925439,12.804218h.000001l6.925439-12.804218c0,0-.000001,0-.000001,0Z" transform="translate(.000001-.531223)" opacity="0" stroke-width="1.2" />
+      </g>
+      <g transform="matrix(-1 0 0 1 578.100726 0.000001)">
+        <g>
+          <path id="ept49UjYh8b20" d="M201.563843,173.676972c1.892288,5.872953,3.305551,8.852264,6.454029,12.804218h-.477113l-6.454029-12.804218h.477113Z" transform="translate(2.402409 85.362612)" opacity="0" stroke-width="1.2" />
+          <path id="ept49UjYh8b21" d="M202.860699,173.676972c0,6.402109.914929,9.159973,2.079643,12.804218v0l-2.07964-12.804218h-.000003Z" transform="translate(-5.057557 56.988908)" opacity="0" stroke-width="1.2" />
+          <path id="ept49UjYh8b22" d="M206.954126,173.676972c-1.624721,5.271439-1.624721,9.300747-2.079643,12.804218h.000001l2.079643-12.804218h-.000001Z" transform="translate(-7.071341 28.574528)" opacity="0" stroke-width="1.2" />
+          <path id="ept49UjYh8b23" d="M210.89169,173.676972c-2.473404,2.897828-5.501517,8.414085-6.925439,12.804218h.000001l6.925439-12.804218c0,0-.000001,0-.000001,0Z" transform="translate(2.000001-.531223)" opacity="0" stroke-width="1.2" />
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(.836111-.54856 0.54856 0.836111-67.2517 271.720057)" mask="url(#ept49UjYh8b25)">
+      <mask id="ept49UjYh8b25" mask-type="alpha">
+        <ellipse rx="87.523176" ry="87.523176" transform="matrix(.98044 0 0 0.98044 289.406002 223.224308)" fill="none" stroke="#3f5787" stroke-width="16" />
+      </mask>
+      <g id="ept49UjYh8b27_tr" transform="translate(289.80965,221.372929) rotate(68.217665)">
+        <path id="ept49UjYh8b27" d="M225.623381,121.264256l-57.305469,34.708536l26.412332-8.005975l72.561427,89.975888-72.561423-89.975893l30.893133-26.702556Z" transform="scale(1.212184,1.398744) translate(-266.218057,-239.254339)" opacity="0" stroke-width="1.2" />
+      </g>
+    </g>
+    <path d="" transform="translate(8.722615 75.61013)" fill="none" stroke="#3f5787" stroke-width="1.2" />
+    <path d="" transform="translate(8.722615 75.610131)" fill="none" stroke="#3f5787" stroke-width="1.2" />
+    <g transform="matrix(-.836111 0.54856-.54856-.836111 660.668772 328.279943)" mask="url(#ept49UjYh8b31)">
+      <mask id="ept49UjYh8b31" mask-type="alpha">
+        <ellipse rx="87.523176" ry="87.523176" transform="matrix(.98044 0 0 0.98044 289.406002 223.224308)" fill="none" stroke="#3f5787" stroke-width="16" />
+      </mask>
+      <g id="ept49UjYh8b33_tr" transform="translate(289.80965,221.372929) rotate(68.217665)">
+        <path id="ept49UjYh8b33" d="M225.623381,121.264256l-57.305469,34.708536l26.412332-8.005975l72.561427,89.975888-72.561423-89.975893l30.893133-26.702556Z" transform="scale(1.212184,1.398744) translate(-266.218057,-239.254339)" opacity="0" stroke-width="1.2" />
+      </g>
+    </g>
+  </svg>
