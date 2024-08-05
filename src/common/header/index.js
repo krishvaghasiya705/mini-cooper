@@ -31,7 +31,12 @@ export default function Header() {
 
   const toggleDropdown = (key) => {
     setDropdowns((prevState) => {
-      const newDropdowns = { models: false, electric: false, shoppingTools: false, community: false };
+      const newDropdowns = {
+        models: false,
+        electric: false,
+        shoppingTools: false,
+        community: false,
+      };
       newDropdowns[key] = !prevState[key];
       return newDropdowns;
     });
@@ -54,10 +59,12 @@ export default function Header() {
             <ModelsDropdown
               isOpen={dropdowns.models}
               onClick={() => toggleDropdown("models")}
+              className={dropdowns.models ? "header-content-active" : ""}
             />
             <ElectricDropdown
               isOpen={dropdowns.electric}
               onClick={() => toggleDropdown("electric")}
+              className={dropdowns.electric ? "header-content-active" : ""}
             />
             <div className="header-content">
               <span>BUILD</span>
@@ -65,10 +72,12 @@ export default function Header() {
             <ShoppingToolsDropdown
               isOpen={dropdowns.shoppingTools}
               onClick={() => toggleDropdown("shoppingTools")}
+              className={dropdowns.shoppingTools ? "header-content-active" : ""}
             />
             <CommunityDropdown
               isOpen={dropdowns.community}
               onClick={() => toggleDropdown("community")}
+              className={dropdowns.community ? "header-content-active" : ""}
             />
           </div>
           <div className="header-content-two">

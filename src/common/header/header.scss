@@ -109,6 +109,13 @@
                         padding-top: 3px;
                         font-size: 15px;
                         font-weight: 700;
+                        color: #000;
+                    }
+
+                    &:hover {
+                        span {
+                            color: #00779c;
+                        }
                     }
                 }
 
@@ -142,6 +149,7 @@
 
                     .dropdownicon {
                         height: 14px;
+                        margin: 0 0 5px 0;
 
                         svg path {
                             fill: #000;
@@ -150,5 +158,16 @@
                 }
             }
         }
+    }
+}
+
+
+.header-content-active {
+    span {
+        color: #00779c;
+    }
+
+    svg path {
+        fill: #00779c !important;
     }
 }
