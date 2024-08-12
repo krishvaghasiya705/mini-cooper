@@ -60,6 +60,8 @@
 
 
 .preloader-div-main {
+  position: relative;
+  z-index: 9999999;
   width: 100%;
   height: 100vh;
   background: #000;

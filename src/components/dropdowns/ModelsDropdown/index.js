@@ -40,6 +40,7 @@ const ModelsDropdown = ({ isOpen, onClick, className }) => {
         setLastOpenBox(null);
     };
 
+    
     return (
         <div>
             <div className={`header-content ${className}`} onClick={onClick}>

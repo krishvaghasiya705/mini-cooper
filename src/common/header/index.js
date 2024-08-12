@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 import Mainlogo from "../../assets/image/mainlogo.svg";
 import Certifiedlogo from "../../assets/icons/certifiedlogo.svg";
 import Usericon from "../../assets/icons/usericon";
-
 import ModelsDropdown from "../../components/dropdowns/ModelsDropdown";
 import ElectricDropdown from "../../components/dropdowns/ElectricDropdown";
 import ShoppingToolsDropdown from "../../components/dropdowns/ShoppingToolsDropdown";
 import CommunityDropdown from "../../components/dropdowns/CommunityDropdown";
 import Dropdownicon from "../../assets/icons/dropdown";
+import Sidebar from "../../components/Sidebar";
 
 export default function Header() {
   const [dropdowns, setDropdowns] = useState({
@@ -20,14 +20,16 @@ export default function Header() {
     community: false,
   });
 
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
   useEffect(() => {
     const body = document.body;
-    if (Object.values(dropdowns).some(isOpen => isOpen)) {
+    if (Object.values(dropdowns).some(isOpen => isOpen) || isSidebarOpen) {
       body.classList.add("overflow-hidden");
     } else {
       body.classList.remove("overflow-hidden");
     }
-  }, [dropdowns]);
+  }, [dropdowns, isSidebarOpen]);
 
   const toggleDropdown = (key) => {
     setDropdowns((prevState) => {
@@ -40,7 +42,29 @@ export default function Header() {
       newDropdowns[key] = !prevState[key];
       return newDropdowns;
     });
+    setSidebarOpen(false);
   };
+
+  const toggleSidebar = () => {
+    setSidebarOpen((prev) => !prev);
+    setDropdowns({
+      models: false,
+      electric: false,
+      shoppingTools: false,
+      community: false,
+    });
+  };
+
+  const closeAllDropdowns = () => {
+    setDropdowns({
+      models: false,
+      electric: false,
+      shoppingTools: false,
+      community: false,
+    });
+  };
+
+  const isDropdownOpen = Object.values(dropdowns).some(isOpen => isOpen);
 
   return (
     <div className="Header">
@@ -85,8 +109,13 @@ export default function Header() {
               <img src={Certifiedlogo} alt="Certifiedlogo" />
               <span>Certified Pre-Owned</span>
             </div>
-            <div className="header-certified-contentsc">
-              <Usericon />
+            <div
+              className={`header-certified-contentsc ${isSidebarOpen ? "active" : ""}`}
+              onClick={toggleSidebar}
+            >
+              <div className="usericon">
+                <Usericon />
+              </div>
               <span>Login</span>
               <div className="dropdownicon">
                 <Dropdownicon />
@@ -95,6 +124,11 @@ export default function Header() {
           </div>
         </div>
       </header>
+      <div
+        className={`dropdown-overlay ${isDropdownOpen ? "active" : ""}`}
+        onClick={closeAllDropdowns}
+      ></div>
+      <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
     </div>
   );
 }

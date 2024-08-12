@@ -1,0 +1,19 @@
+.SecondSectionmain {
+    height: 760px;
+    width: 100%;
+    position: relative;
+    background-color: #BBD780;
+
+    .SecondSection-circle-main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 36vw;
+        height: 36vw;
+        max-width: 500px;
+        max-height: 500px;
+        background-color: #582216;
+        border-radius: 50%;
+    }
+}

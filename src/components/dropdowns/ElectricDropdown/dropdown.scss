@@ -1,4 +1,9 @@
-.dropdown-content {
+body {
+    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif;
+}
+
+.Second-Dropdown-Main {
     position: absolute;
     top: 100%;
     left: 0;
@@ -12,5 +17,188 @@
 
     &.open {
         height: 100%;
+    }
+
+    .Second-Dropdown-Main-rl-main {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        .Second-dropdown-background-image {
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+        }
+
+        .Second-dropdown-ab-main {
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 20px 4%;
+            display: flex;
+            justify-content: start;
+            align-items: start;
+
+            .Mini-usa-ev-logo {
+                width: 184px;
+                height: 40px;
+                margin: 0 0 10px 0;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            h1 {
+                max-width: 580px;
+                margin: 0;
+                color: #000;
+                font-size: 56px;
+                line-height: 68px;
+                font-weight: 400;
+                font-family: "Roboto Slab", serif;
+                text-align: left;
+                margin: 0 0 10px 0;
+            }
+
+            .eva-buttons-main {
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                gap: 20px;
+
+                .buttons-flx-one {
+                    display: flex;
+                    justify-content: start;
+                    align-items: start;
+                    flex-direction: column;
+
+                    button {
+                        margin: 0 0 20px 0;
+                        width: 305px;
+                        border-radius: 40px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        border: 2px solid;
+                        cursor: pointer;
+                        padding: .625em 3.125em;
+                        text-align: center;
+                        transition: all .25s ease-in-out;
+                        line-height: 1.4;
+                        background-color: #00779c;
+                        border-color: #00779c;
+                        color: #fff;
+
+                        &:hover {
+                            border-color: #000;
+                            color: #000;
+                            background-color: transparent;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        color: #000;
+                        margin: 0 0 18px 0;
+                        line-height: 1.333334;
+                        font-weight: 500;
+                        font-family: "Poppins", sans-serif;
+                    }
+
+                    p {
+                        font-family: "Poppins", sans-serif;
+                        margin: 0 0 13px 0;
+                        font-size: 12px;
+                        line-height: 20px;
+                        max-width: 221px;
+                        color: #6b6b75;
+                        font-weight: 500;
+
+                        span {
+                            font-weight: 700;
+                        }
+                    }
+
+                    a {
+                        font-size: 16px;
+                        line-height: 1.4;
+                        text-transform: uppercase;
+                        transition: all .15s ease-in-out;
+                        color: #00779c;
+                        text-decoration-line: none;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 600;
+
+                        &:hover {
+                            color: #000;
+                        }
+                    }
+
+                }
+
+
+                .buttons-flx-two {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    button {
+                        margin: 0 0 20px 0;
+                        width: 305px;
+                        border-radius: 40px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        border: 2px solid;
+                        cursor: pointer;
+                        padding: .625em 3.125em;
+                        text-align: center;
+                        transition: all .25s ease-in-out;
+                        line-height: 1.4;
+                        background-color: #000;
+                        border-color: #000;
+                        color: #fff;
+
+                        &:hover {
+                            border-color: #000;
+                            color: #000;
+                            background-color: transparent;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        color: #000;
+                        margin: 0 0 18px 0;
+                        line-height: 1.333334;
+                        font-weight: 500;
+                        font-family: "Poppins", sans-serif;
+                    }
+
+                    p {
+                        font-family: "Poppins", sans-serif;
+                        margin: 0 0 13px 0;
+                        font-size: 12px;
+                        line-height: 20px;
+                        color: #6b6b75;
+                        font-weight: 500;
+                        text-align: center;
+                    }
+                }
+
+            }
+        }
     }
 }

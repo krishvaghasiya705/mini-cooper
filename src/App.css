@@ -87,3 +87,20 @@ img {
   color: #FFF;
   background: #000;
 }
+/* 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #CC0000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BBD780;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #003016;
+} */

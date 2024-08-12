@@ -1,4 +1,9 @@
-.ModelDropdowncar-one-drop-one {
+body {
+    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif;
+}
+
+.ExploreModelDropwns2-one-drop-one {
     position: absolute;
     top: 100%;
     left: -1px;
@@ -35,138 +40,79 @@
             left: 0;
             width: 100%;
             height: 100%;
-            padding: 60px 0 0 0;
 
-            .Dropdownbox1-inner-container {
-                padding: 0 50px;
+            .Dropdown-content-box1 {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+                gap: 0;
+                padding: 0 3.2rem 13.2rem 3.2rem;
+                margin: 0 auto;
+                display: -ms-flexbox;
+                -ms-flex-pack: justify;
+                box-sizing: border-box;
 
-                .Dropdown-content-box1 {
-                    width: 100%;
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
+                .Dropdown-content1 {
+                    display: flex;
+                    justify-content: start;
                     align-items: start;
-                    gap: 0;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    img {
+                        width: 162px;
+                    }
+
 
                     h1 {
-                        font-size: 56px;
-                        font-weight: 600;
-                        line-height: 68px;
-                        max-width: 520px;
+                        font-size: 40px;
+                        font-weight: 300;
+                        line-height: 1;
+                        color: #FFF;
+                        text-transform: uppercase;
                         font-family: "Roboto Slab", serif;
-                        color: #003016;
-                        margin: 0 0 10px 0;
-                        padding: 0 !important;
                     }
+                }
 
-                    p {
-                        color: #003016;
+                .Dropdown-content2 {
+                    display: flex;
+                    justify-content: end;
+                    align-items: end;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    button {
+                        border: 2px solid;
+                        cursor: pointer;
+                        text-align: center;
+                        padding: .625em 3.125em;
+                        transition: all .25s ease-in-out;
+                        line-height: 1.4;
                         font-size: 16px;
-                        font-weight: 500;
-                        line-height: normal;
-                        font-family: "Roboto Slab", serif;
-                        margin: 0 0 5px 0;
-                        // font-family: "Poppins", sans-serif;
-                    }
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        padding-inline: 30px;
+                        width: 100%;
 
-                    .price-text {
-                        margin: 0 0 25px 0;
-
-                        span {
-                            color: #003016;
-                            font-size: 28px;
-                            font-weight: 600;
-                            line-height: 37px;
-                            font-family: "Roboto Slab", serif;
+                        &:hover {
+                            background-color: transparent !important;
+                            color: #000 !important;
+                            border-color: #000 !important;
                         }
                     }
 
-                    .MSRP-div {
-                        display: flex;
-                        justify-content: start;
-                        align-items: center;
-
-                        p {
-                            color: #000;
-                            font-family: "Roboto Slab", serif;
-                            font-size: 16px;
-                            font-weight: 400;
-                            line-height: 1.4;
-
-                            span {
-                                font-weight: 700;
-                            }
-                        }
+                    button:nth-child(2n + 1) {
+                        background-color: #00779C;
+                        border-color: #00779C;
+                        color: #FFF;
                     }
 
-                    .expore-button-and-build-button-main {
-                        display: flex;
-                        justify-content: end;
-                        align-items: start;
-
-                        button:nth-child(2n + 1) {
-                            border-radius: 40px;
-                            padding-inline: 30px;
-                            width: 100%;
-                            background-color: #00779c;
-                            border: 2px solid #00779c;
-                            color: #fff;
-                            cursor: pointer;
-                            padding: .625em 3.125em;
-                            text-align: center;
-                            transition: all .25s ease-in-out;
-                            font-size: 16px;
-                            font-weight: 600;
-                            line-height: 1.4;
-                            font-family: "Roboto Slab", serif;
-                            margin: 0 0 18px 0;
-
-                            &:hover {
-                                background-color: transparent;
-                                border: 2px solid #000;
-                                columns: #000;
-                            }
-                        }
-
-                        button:nth-child(2n + 2) {
-                            border-radius: 40px;
-                            padding-inline: 30px;
-                            width: 100%;
-                            background-color: #FFF;
-                            border: 2px solid #FFF;
-                            color: #000;
-                            cursor: pointer;
-                            padding: .625em 3.125em;
-                            text-align: center;
-                            transition: all .25s ease-in-out;
-                            font-size: 16px;
-                            font-weight: 600;
-                            line-height: 1.4;
-                            font-family: "Roboto Slab", serif;
-                            margin: 0 0 25px 0;
-
-                            &:hover {
-                                background-color: transparent;
-                                border: 2px solid #000;
-                                color: #000;
-                            }
-                        }
-
-                        .View-link {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            padding: 0 0 25px 0;
-                            border-bottom: 1px solid #FFF;
-
-                            a {
-                                text-decoration-line: none;
-                                font-family: "Roboto Slab", serif;
-                                font-size: 16px;
-                                left: 1.4;
-                                font-weight: 500;
-                                color: #000;
-                            }
-                        }
+                    button:nth-child(2n + 2) {
+                        background-color: #FFF;
+                        border-color: #FFF;
+                        color: #000;
                     }
                 }
             }
