@@ -50,6 +50,40 @@
                 gap: 27px;
                 align-items: center;
 
+                .header-content-main {
+                    border-bottom: 3px solid #FFF;
+                    height: calc(100% - 3px);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .header-content-main-active {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: calc(100% - 3px);
+                    border-bottom: 3px solid #00779c;
+                }
+
+                .header-content-main {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: calc(100% - 3px);
+                    border-bottom: 3px solid #FFF;
+                }
+
+                .header-content-active {
+                    span {
+                        color: #00779c;
+                    }
+
+                    svg path {
+                        fill: #00779c !important;
+                    }
+                }
+
                 .header-content {
                     display: flex;
                     justify-content: center;
@@ -57,6 +91,7 @@
                     gap: 5px;
                     cursor: pointer;
                     transition: all 0.4s ease-in-out;
+                    position: relative;
 
                     &:hover {
                         span {
@@ -92,6 +127,7 @@
                 padding: 0;
                 gap: 27px;
                 align-items: center;
+                height: 100%;
 
                 .header-certified-content {
                     display: flex;
@@ -99,6 +135,8 @@
                     align-items: center;
                     gap: 6px;
                     cursor: pointer;
+                    height: calc(100% - 3px);
+                    border-bottom: 3px solid #FFF;
 
                     img {
                         height: 14px;
@@ -147,6 +185,19 @@
                             }
                         }
                     }
+                }
+
+                .header-certified-contentsc-main {
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: calc(100% - 3px);
+                    border-bottom: 3px solid #FFF;
+                }
+
+                .header-certified-contentsc-main-active {
+                    border-color: #00779c !important;
                 }
 
                 .header-certified-contentsc {
@@ -223,15 +274,4 @@
 
 .dropdown-overlay.active {
     display: block;
-}
-
-
-.header-content-active {
-    span {
-        color: #00779c;
-    }
-
-    svg path {
-        fill: #00779c !important;
-    }
 }
