@@ -1,12 +1,10 @@
-import React from 'react'
-import "./home.scss"
+import React from "react";
+import "./home.scss";
 
+import ScrollToTop from "../../components/Scrolltotop";
 
-import Herobanner from './homepagecomponents/herobanner';
-import SecondSection from './homepagecomponents/secondsection';
-import ScrollToTop from '../../components/Scrolltotop';
-
-
+import Herobanner from "./homepagecomponents/herobanner";
+import Carchangersection from "./homepagecomponents/CarchangerSection";
 
 export default function Home() {
   return (
@@ -15,7 +13,7 @@ export default function Home() {
 
       {/* Homepage Component */}
       <Herobanner />
-      <SecondSection />
+      <Carchangersection />
     </div>
-  )
+  );
 }

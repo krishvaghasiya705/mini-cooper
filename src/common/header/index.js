@@ -24,7 +24,7 @@ export default function Header() {
 
   useEffect(() => {
     const body = document.body;
-    if (Object.values(dropdowns).some(isOpen => isOpen) || isSidebarOpen) {
+    if (Object.values(dropdowns).some((isOpen) => isOpen) || isSidebarOpen) {
       body.classList.add("overflow-hidden");
     } else {
       body.classList.remove("overflow-hidden");
@@ -64,7 +64,7 @@ export default function Header() {
     });
   };
 
-  const isDropdownOpen = Object.values(dropdowns).some(isOpen => isOpen);
+  const isDropdownOpen = Object.values(dropdowns).some((isOpen) => isOpen);
 
   return (
     <div className="Header">
@@ -80,54 +80,36 @@ export default function Header() {
 
         <div className="header-main-content">
           <div className="header-content-one">
-            <ModelsDropdown
-              isOpen={dropdowns.models}
-              onClick={() => toggleDropdown("models")}
-              className={dropdowns.models ? "header-content-active" : ""}
-            />
-            <ElectricDropdown
-              isOpen={dropdowns.electric}
-              onClick={() => toggleDropdown("electric")}
-              className={dropdowns.electric ? "header-content-active" : ""}
-            />
-            <div className="header-content">
-              <span>BUILD</span>
+            <ModelsDropdown isOpen={dropdowns.models} onClick={() => toggleDropdown("models")} className={dropdowns.models ? "header-content-active" : ""} />
+            <ElectricDropdown isOpen={dropdowns.electric} onClick={() => toggleDropdown("electric")} className={dropdowns.electric ? "header-content-active" : ""} />
+            <div className="header-content-main">
+              <div className="header-content">
+                <span>BUILD</span>
+              </div>
             </div>
-            <ShoppingToolsDropdown
-              isOpen={dropdowns.shoppingTools}
-              onClick={() => toggleDropdown("shoppingTools")}
-              className={dropdowns.shoppingTools ? "header-content-active" : ""}
-            />
-            <CommunityDropdown
-              isOpen={dropdowns.community}
-              onClick={() => toggleDropdown("community")}
-              className={dropdowns.community ? "header-content-active" : ""}
-            />
+            <ShoppingToolsDropdown isOpen={dropdowns.shoppingTools} onClick={() => toggleDropdown("shoppingTools")} className={dropdowns.shoppingTools ? "header-content-active" : ""} />
+            <CommunityDropdown isOpen={dropdowns.community} onClick={() => toggleDropdown("community")} className={dropdowns.community ? "header-content-active" : ""} />
           </div>
           <div className="header-content-two">
             <div className="header-certified-content">
               <img src={Certifiedlogo} alt="Certifiedlogo" />
               <span>Certified Pre-Owned</span>
             </div>
-            <div
-              className={`header-certified-contentsc ${isSidebarOpen ? "active" : ""}`}
-              onClick={toggleSidebar}
-            >
-              <div className="usericon">
-                <Usericon />
-              </div>
-              <span>Login</span>
-              <div className="dropdownicon">
-                <Dropdownicon />
+            <div className={`header-certified-contentsc-main ${isSidebarOpen ? "header-certified-contentsc-main-active" : ""}`}>
+              <div className={`header-certified-contentsc ${isSidebarOpen ? "active" : ""}`} onClick={toggleSidebar}>
+                <div className="usericon">
+                  <Usericon />
+                </div>
+                <span>Login</span>
+                <div className="dropdownicon">
+                  <Dropdownicon />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </header>
-      <div
-        className={`dropdown-overlay ${isDropdownOpen ? "active" : ""}`}
-        onClick={closeAllDropdowns}
-      ></div>
+      <div className={`dropdown-overlay ${isDropdownOpen ? "active" : ""}`} onClick={closeAllDropdowns}></div>
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
     </div>
   );
