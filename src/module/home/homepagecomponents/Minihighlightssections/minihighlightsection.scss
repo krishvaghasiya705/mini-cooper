@@ -1,0 +1,41 @@
+.Minihighlightsection-main {
+    width: 100%;
+    margin: 100px 0;
+
+    .Minihighlightsection-container {
+        max-width: 1598px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .Minihighlightsection-title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+
+        p {
+            color: #6b6b75;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2.75px;
+            line-height: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: "Poppins", sans-serif;
+            margin: 0 0 10px 0;
+        }
+
+        h1 {
+            font-family: "Roboto Slab", serif;
+            font-weight: 500;
+            text-align: center;
+            font-size: 56px;
+            line-height: 68px;
+            text-transform: uppercase;
+            margin: 0 0 25px 0;
+        }
+    }
+}

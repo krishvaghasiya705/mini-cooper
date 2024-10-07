@@ -1,486 +1,503 @@
 body {
-    font-family: "Roboto Slab", serif;
-    font-family: "Poppins", sans-serif;
-    font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .Carchangersectionmain {
-    height: 760px;
+  height: 760px;
+  width: 100%;
+  position: relative;
+  background-color: #bbd780;
+  z-index: 1;
+
+  .Carchangersection-circle-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36vw;
+    height: 36vw;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 50%;
+    z-index: 3;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    &.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    &.one {
+      background-color: #582216;
+    }
+
+    &.two {
+      background-color: #cc0000;
+    }
+
+    &.three {
+      background-color: #003016;
+    }
+
+    &.four {
+      background-color: #641978;
+    }
+
+    &.five {
+      background-color: #ed5700;
+    }
+  }
+
+  .Carchangersection-car-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 4;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+
+    &.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    &.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    img {
+      width: 60vw;
+      max-width: 768px;
+      display: block;
+    }
+  }
+
+  .Carchangersection-car-background-main {
     width: 100%;
-    position: relative;
-    background-color: #BBD780;
-    z-index: 1;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
 
-    .Carchangersection-circle-main {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 36vw;
-        height: 36vw;
-        max-width: 500px;
-        max-height: 500px;
-        background-color: #582216;
-        border-radius: 50%;
-        z-index: 3;
-        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-        opacity: 0;
-        visibility: hidden;
-
-        &.visible {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        &.hidden {
-            opacity: 0;
-            visibility: hidden;
-        }
+    &.visible {
+      opacity: 1;
+      visibility: visible;
     }
 
-    .Carchangersection-car-main {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        z-index: 4;
-        transform: translate(-50%, -50%);
-        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-        opacity: 0;
-        visibility: hidden;
-
-        &.visible {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        &.hidden {
-            opacity: 0;
-            visibility: hidden;
-        }
-
-        img {
-            width: 60vw;
-            max-width: 768px;
-            display: block;
-        }
+    &.hidden {
+      opacity: 0;
+      visibility: hidden;
     }
 
-    .Carchangersection-car-background-main {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-        opacity: 0;
-        visibility: hidden;
-
-        &.visible {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        &.hidden {
-            opacity: 0;
-            visibility: hidden;
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-            display: block;
-            object-fit: cover;
-        }
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
     }
+  }
 
-    .Carchangersection-content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: calc(100% - 160px);
-        width: 100%;
-        padding: 80px 0;
+  .Carchangersection-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100% - 160px);
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    .Carchangersection-content-top-main {
+      width: calc(100% - 30px);
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin: 0 30px 0 0;
+
+      .Carchangersection-content-top-left-side-main {
+        width: fit-content;
+
+        p {
+          font-family: "Montserrat", sans-serif;
+          box-sizing: border-box;
+          width: 456px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          margin: 0 0 12px 0;
+          padding: 0 0 0 102px;
+          color: #000;
+          letter-spacing: 2.75px;
+          text-transform: uppercase;
+          font-size: 11px;
+          font-weight: 300;
+        }
+
+        .paragraph-color-one {
+          color: #000;
+        }
+
+        .paragraph-color-two {
+          color: #fff;
+        }
+
+        .paragraph-color-three {
+          color: #000;
+        }
+
+        .paragraph-color-four {
+          color: #000;
+        }
+
+        .paragraph-color-five {
+          color: #fff;
+        }
+
+        .interior1 {
+          color: #fff !important;
+        }
+
+        .interior2 {
+          color: #fff !important;
+        }
+
+        .interior3 {
+          color: #fff !important;
+        }
+
+        .interior4 {
+          color: #fff !important;
+        }
+
+        .interior5 {
+          color: #fff !important;
+        }
+
+        .Carchangersideone {
+          box-sizing: border-box;
+          width: 456px;
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          margin: 0 0 12px 0;
+          padding: 0 0 0 102px;
+          background-color: transparent;
+          border-radius: 0 20px 20px 0;
+          text-align: left;
+
+          .one {
+            color: #000;
+          }
+
+          .two {
+            color: #fff;
+          }
+
+          .three {
+            color: #000;
+          }
+
+          .four {
+            color: #000;
+          }
+
+          .five {
+            color: #fff;
+          }
+
+          .interior1 {
+            color: #fff !important;
+          }
+
+          .interior2 {
+            color: #fff !important;
+          }
+
+          .interior3 {
+            color: #fff !important;
+          }
+
+          .interior4 {
+            color: #fff !important;
+          }
+
+          .interior5 {
+            color: #fff !important;
+          }
+
+          button {
+            background-color: transparent;
+            border: none;
+            outline: none !important;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 1.5;
+            font-family: "Poppins", sans-serif;
+            cursor: pointer;
+          }
+
+          &.Carchangersideoneactive {
+            background: #fff;
+            transition: all 0.3s ease-in-out;
+
+            .one {
+              color: #582216 !important;
+            }
+
+            .two {
+              color: #cc0000 !important;
+            }
+
+            .three {
+              color: #003016 !important;
+            }
+
+            .four {
+              color: #641978 !important;
+            }
+
+            .five {
+              color: #ed5700 !important;
+            }
+          }
+        }
+      }
+
+      .interior-exterior-button-main {
+        width: auto;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        flex-direction: column;
+        border: 1px solid #000;
+        padding: 2px;
+        border-radius: 40px;
+        background-color: #fff;
+        margin: 0 50px 0 0;
 
-        .Carchangersection-content-top-main {
-            width: calc(100% - 30px);
-            display: flex;
-            justify-content: space-between;
-            align-items: start;
-            margin: 0 30px 0 0;
-
-            .Carchangersection-content-top-left-side-main {
-                width: fit-content;
-
-                p {
-                    font-family: "Montserrat", sans-serif;
-                    box-sizing: border-box;
-                    width: 456px;
-                    display: flex;
-                    justify-content: start;
-                    align-items: center;
-                    margin: 0 0 12px 0;
-                    padding: 0 0 0 102px;
-                    color: #000;
-                    letter-spacing: 2.75px;
-                    text-transform: uppercase;
-                    font-size: 11px;
-                    font-weight: 300;
-                }
-
-                .paragraph-color-one {
-                    color: #000;
-                }
-
-                .paragraph-color-two {
-                    color: #fff;
-                }
-
-                .paragraph-color-three {
-                    color: #000;
-                }
-
-                .paragraph-color-four {
-                    color: #000;
-                }
-
-                .paragraph-color-five {
-                    color: #fff;
-                }
-
-                .interior1 {
-                    color: #FFF !important;
-                }
-
-                .interior2 {
-                    color: #FFF !important;
-                }
-
-                .interior3 {
-                    color: #FFF !important;
-                }
-
-                .interior4 {
-                    color: #FFF !important;
-                }
-
-                .interior5 {
-                    color: #FFF !important;
-                }
-
-
-                .Carchangersideone {
-                    box-sizing: border-box;
-                    width: 456px;
-                    display: flex;
-                    justify-content: start;
-                    align-items: center;
-                    margin: 0 0 12px 0;
-                    padding: 0 0 0 102px;
-                    background-color: transparent;
-                    border-radius: 0 20px 20px 0;
-                    text-align: left;
-
-                    .one {
-                        color: #000;
-                    }
-
-                    .two {
-                        color: #fff;
-                    }
-
-                    .three {
-                        color: #000;
-                    }
-
-                    .four {
-                        color: #000;
-                    }
-
-                    .five {
-                        color: #fff;
-                    }
-
-                    .interior1 {
-                        color: #FFF !important;
-                    }
-
-                    .interior2 {
-                        color: #FFF !important;
-                    }
-
-                    .interior3 {
-                        color: #FFF !important;
-                    }
-
-                    .interior4 {
-                        color: #FFF !important;
-                    }
-
-                    .interior5 {
-                        color: #FFF !important;
-                    }
-
-                    button {
-                        background-color: transparent;
-                        border: none;
-                        outline: none !important;
-                        font-size: 19px;
-                        font-weight: 600;
-                        line-height: 1.5;
-                        font-family: "Poppins", sans-serif;
-                        cursor: pointer;
-                    }
-
-                    &.Carchangersideoneactive {
-                        background-color: #FFF !important;
-
-                        .one {
-                            color: #582216 !important;
-                        }
-
-                        .two {
-                            color: #CC0000 !important;
-                        }
-
-                        .three {
-                            color: #003016 !important;
-                        }
-
-                        .four {
-                            color: #641978 !important;
-                        }
-
-                        .five {
-                            color: #ED5700 !important;
-                        }
-                    }
-                }
-            }
-
-            .interior-exterior-button-main {
-                width: auto;
-                display: flex;
-                align-items: center;
-                border: 1px solid #000;
-                padding: 2px;
-                border-radius: 40px;
-                background-color: #FFF;
-                margin: 0 50px 0 0;
-
-                button {
-                    border-radius: 40px;
-                    background-color: transparent;
-                    border: none;
-                    outline: none !important;
-                    flex: 1 1;
-                    padding: 8px;
-                    width: 187px;
-                    height: 34px;
-                    box-sizing: border-box;
-                    text-align: center;
-                    font-size: 14px;
-                    font-weight: 500;
-                    line-height: 1.5;
-                    font-family: "Poppins", sans-serif;
-                    cursor: pointer;
-                }
-
-                .interior-exterior-button-active {
-                    background-color: #000 !important;
-                    color: #FFF !important;
-                }
-            }
+        button {
+          border-radius: 40px;
+          background-color: transparent;
+          border: none;
+          outline: none !important;
+          flex: 1 1;
+          padding: 8px;
+          width: 187px;
+          height: 34px;
+          box-sizing: border-box;
+          text-align: center;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 1.5;
+          font-family: "Poppins", sans-serif;
+          cursor: pointer;
         }
 
-        .Carchangersection-content-bottom-main {
-            max-width: 1730px;
-            margin: 0 auto;
-            padding: 0 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: end;
-            width: 100%;
-
-            .Carchangersection-data-content {
-
-                .one {
-                    color: #000;
-                }
-
-                .two {
-                    color: #fff;
-                }
-
-                .three {
-                    color: #000;
-                }
-
-                .four {
-                    color: #000;
-                }
-
-                .five {
-                    color: #fff;
-                }
-
-                .interior1 {
-                    color: #FFF !important;
-                }
-
-                .interior2 {
-                    color: #FFF !important;
-                }
-
-                .interior3 {
-                    color: #FFF !important;
-                }
-
-                .interior4 {
-                    color: #FFF !important;
-                }
-
-                .interior5 {
-                    color: #FFF !important;
-                }
-            }
-
-            h1 {
-                margin: 0 0 10px 0;
-                font-family: "Roboto Slab", serif;
-                text-transform: uppercase;
-                text-align: left;
-                font-size: 28px;
-                font-weight: 500;
-            }
-
-            .cars-detail-and-price {
-                display: flex;
-                justify-content: start;
-                align-items: center;
-                gap: 10px;
-
-                p {
-                    font-weight: 800;
-                    font-size: 13px;
-                    font-family: "Roboto Slab", serif;
-                    letter-spacing: .25px;
-                    text-align: center;
-                }
-
-                span {
-                    font-weight: 500;
-                    font-size: 12px;
-                    font-family: "Roboto Slab", serif;
-                    letter-spacing: .25px;
-                    text-align: center;
-                    border-left: 1px solid #FFF;
-                    padding: 0 0 0 10px;
-                }
-            }
-
-            .learn-build-button-main {
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                // margin: 0 30px 0 0;
-
-                .learn-build-button-two {
-
-                    &.two {
-                        background-color: #FFF;
-                        color: #000;
-                        border-color: #FFF;
-                        transition: all .25s ease-in-out;
-
-                        &:hover {
-                            transition: all .25s ease-in-out;
-                            color: #FFF;
-                            background: transparent;
-                        }
-                    }
-
-                    &.five {
-                        background-color: #FFF;
-                        color: #000;
-                        border-color: #FFF;
-                        transition: all .25s ease-in-out;
-
-                        &:hover {
-                            transition: all .25s ease-in-out;
-                            color: #FFF;
-                            background: transparent;
-                        }
-                    }
-                }
-
-                .interiorbutonchangedsecond {
-                    background-color: #FFF !important;
-                    color: #000 !important;
-                    border-color: #FFF !important;
-                    transition: all .25s ease-in-out;
-
-                    &:hover {
-                        transition: all .25s ease-in-out;
-                        color: #FFF !important;
-                        background: transparent !important;
-                    }
-                }
-
-                button {
-                    display: -ms-flexbox;
-                    display: flex;
-                    -ms-flex-align: center;
-                    align-items: center;
-                    -ms-flex-pack: center;
-                    justify-content: center;
-                    width: 100%;
-                    border-radius: 20px;
-                    text-wrap: nowrap;
-                    padding: 11px 30px 9px;
-                    flex: 1 1;
-                    border: 2px solid;
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    font-weight: 600;
-                    letter-spacing: .07em;
-                    line-height: 20px;
-                    font-size: 15px;
-                    outline: none;
-                    cursor: pointer;
-                    font-family: "Poppins", sans-serif;
-                    transition: all .25s ease-in-out;
-                }
-
-                button:first-child {
-                    color: #fff;
-                    background: #00779c;
-                    border-color: #00779c;
-                    transition: all .25s ease-in-out;
-
-                    &:hover {
-                        transition: all .25s ease-in-out;
-                        color: #00779c;
-                        background: transparent;
-                    }
-                }
-
-                button:last-child {
-                    background: #000;
-                    border-color: #000;
-                    color: #fff;
-                    transition: all .25s ease-in-out;
-
-                    &:hover {
-                        transition: all .25s ease-in-out;
-                        color: #000;
-                        background: transparent;
-                    }
-                }
-            }
+        .interior-exterior-button-active {
+          background-color: #000 !important;
+          color: #fff !important;
         }
+      }
     }
+
+    .Carchangersection-content-bottom-main {
+      max-width: 1730px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      width: 100%;
+
+      .Carchangersection-data-content {
+        .one {
+          color: #000;
+        }
+
+        .two {
+          color: #fff;
+        }
+
+        .three {
+          color: #000;
+        }
+
+        .four {
+          color: #000;
+        }
+
+        .five {
+          color: #fff;
+        }
+
+        .interior1 {
+          color: #fff !important;
+        }
+
+        .interior2 {
+          color: #fff !important;
+        }
+
+        .interior3 {
+          color: #fff !important;
+        }
+
+        .interior4 {
+          color: #fff !important;
+        }
+
+        .interior5 {
+          color: #fff !important;
+        }
+      }
+
+      h1 {
+        margin: 0 0 10px 0;
+        font-family: "Roboto Slab", serif;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 28px;
+        font-weight: 500;
+      }
+
+      .cars-detail-and-price {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+
+        p {
+          font-weight: 800;
+          font-size: 13px;
+          font-family: "Roboto Slab", serif;
+          letter-spacing: 0.25px;
+          text-align: center;
+        }
+
+        span {
+          font-weight: 500;
+          font-size: 12px;
+          font-family: "Roboto Slab", serif;
+          letter-spacing: 0.25px;
+          text-align: center;
+          border-left: 1px solid #fff;
+          padding: 0 0 0 10px;
+        }
+      }
+
+      .learn-build-button-main {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        // margin: 0 30px 0 0;
+
+        .learn-build-button-two {
+          &.two {
+            background-color: #fff;
+            color: #000;
+            border-color: #fff;
+            transition: all 0.25s ease-in-out;
+
+            &:hover {
+              transition: all 0.25s ease-in-out;
+              color: #fff;
+              background: transparent;
+            }
+          }
+
+          &.five {
+            background-color: #fff;
+            color: #000;
+            border-color: #fff;
+            transition: all 0.25s ease-in-out;
+
+            &:hover {
+              transition: all 0.25s ease-in-out;
+              color: #fff;
+              background: transparent;
+            }
+          }
+        }
+
+        .interiorbutonchangedsecond {
+          background-color: #fff !important;
+          color: #000 !important;
+          border-color: #fff !important;
+          transition: all 0.25s ease-in-out;
+
+          &:hover {
+            transition: all 0.25s ease-in-out;
+            color: #fff !important;
+            background: transparent !important;
+          }
+        }
+
+        button {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+          align-items: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          width: 100%;
+          border-radius: 20px;
+          text-wrap: nowrap;
+          padding: 11px 30px 9px;
+          flex: 1 1;
+          border: 2px solid;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: 600;
+          letter-spacing: 0.07em;
+          line-height: 20px;
+          font-size: 15px;
+          outline: none;
+          cursor: pointer;
+          font-family: "Poppins", sans-serif;
+          transition: all 0.25s ease-in-out;
+        }
+
+        button:first-child {
+          color: #fff;
+          background: #00779c;
+          border-color: #00779c;
+          transition: all 0.25s ease-in-out;
+
+          &:hover {
+            transition: all 0.25s ease-in-out;
+            color: #00779c;
+            background: transparent;
+          }
+        }
+
+        button:last-child {
+          background: #000;
+          border-color: #000;
+          color: #fff;
+          transition: all 0.25s ease-in-out;
+
+          &:hover {
+            transition: all 0.25s ease-in-out;
+            color: #000;
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
 }

@@ -101,8 +101,10 @@ function Carchangersection() {
           <div className="Carchangersection-content-top-left-side-main">
             <p className={`paragraph-color-${activeCar} ${view === "Interior" ? `interior${["one", "two", "three", "four", "five"].indexOf(activeCar) + 1}` : ""}`}>EXPLORE THE LINEUP</p>
             {["one", "two", "three", "four", "five"].map((car, index) => (
-              <div key={car} className={`Carchangersideone ${car} ${activeCar === car ? "Carchangersideoneactive" : ""}`} onClick={() => handleCarChange(car)}>
-                <button className={`button-text ${view === "Interior" ? `interior${index + 1}` : ""} ${activeCar}`}>{carDetails[car].title}</button>
+              <div key={car} className={`Carchangersideone ${car} ${activeCar === car ? "Carchangersideoneactive" : ""}`}>
+                <button className={`button-text ${view === "Interior" ? `interior${index + 1}` : ""} ${activeCar}`} onClick={() => handleCarChange(car)}>
+                  {carDetails[car].title}
+                </button>
               </div>
             ))}
           </div>
