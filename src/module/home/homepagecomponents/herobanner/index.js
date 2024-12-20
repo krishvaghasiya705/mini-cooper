@@ -16,7 +16,7 @@ function Herobanner() {
               <div>
                 <span>SPECIAL OFFERS</span>
                 <h1>RACE IN FOR EXCEPTIONAL LEASE AND FINANCE OFFERS.</h1>
-                <p>The all-new MINI family has arrived! Drive off in the latest MINI Cooper 2 Door or MINI Countryman with exceptional lease and finance offers. Hurry in, offers end September 3, 2024.</p>
+                <p>The all-new MINI family has arrived! Drive off in the latest MINI Cooper 2 Door or MINI Countryman with exceptional lease and finance offers Hurry in, offers end September 3, 2024.</p>
                 <div className="Herobanner-buttons-main">
                   <button>VIEW OFFERS</button>
                   <button>SEARCH INVENTORY</button>
